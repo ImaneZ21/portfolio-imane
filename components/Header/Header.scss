@@ -1,12 +1,50 @@
 .header {
     position: fixed;
+    // height: 100px;
     top: 10px;
+    width: 100%;
+    // z-index: 1000;
+
+    .header-top a,
+    .header-bottom a{
+        text-decoration: none;
+        color: #210706;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .header {
-        position: fixed;
-        top: 10px;
-        left: 10px;
+        flex-direction: column;
+        left: 0px;
+        top: 0px;
+
+        .header-top,
+        .header-bottom {
+            height: 100%;
+            padding: 0;
+
+
+            &.header-top a, &.header-bottom a {
+                transition: all 0.3s ease;
+                border: 1px solid transparent;
+                width: 100%;
+                text-align: center;
+                padding: 15px;
+                white-space: nowrap;
+                border: 1px solid rgba(255,255,255,0.1);
+            }
+
+            &.header-top a:hover {
+                padding: 15px;
+                color: #F1E6D2;
+                background-color: #210706;
+            }
+
+            &.header-bottom a:hover {
+                padding: 15px;
+                color: #F1E6D2;
+                background-color: #210706;
+            }
+        }
     }
 }
