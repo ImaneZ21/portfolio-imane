@@ -17,9 +17,9 @@ function Header() {
         </div>
 
         <div className="header-bottom">
-          <a className="pe-4 header-bottom-sub">Mes projets</a>
-          <a className="pe-4 header-bottom-sub">Mes compétences</a>
-          <a className="pe-4 header-bottom-sub">Mon CV</a>
+          <a className="pe-4">Mes projets</a>
+          <a className="pe-4">Mes compétences</a>
+          <a className="pe-4">Mon CV</a>
         </div>
       </div>
     </nav>
