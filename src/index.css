@@ -13,17 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #210706;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #F1E6D2;
-  background-color: #210706;
-}
-
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #F1E6D2;

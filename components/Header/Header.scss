@@ -1,7 +1,14 @@
 .header {
     position: fixed;
     top: 10px;
-    width: 100%;
+    width: 80%;
+    justify-content: end;
+
+
+    .header-top,
+    .header-bottom {
+        justify-content: end;
+    }
 
     .header-top a,
     .header-bottom a {
@@ -21,9 +28,10 @@
 
 @media screen and (max-width: 768px) {
     .header {
+        width: 100%;
         flex-direction: column;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
         text-align: center;
 
         .burger-btn {
@@ -41,7 +49,6 @@
         &.open .header-top,
         &.open .header-bottom {
             display: flex;
-            flex-direction: column;
             width: 100%;
         }
 
@@ -50,13 +57,16 @@
             width: 100%;
             text-align: center;
             padding: 15px;
-            border: 1px solid rgba(255,255,255,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             transition: all 0.3s ease;
+                        background-color: #F1E6D2;
+
         }
 
         .header-top a:hover,
         .header-bottom a:hover {
             color: #F1E6D2;
+            background-color: #210706;
         }
     }
 }

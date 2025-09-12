@@ -9,15 +9,24 @@
   background-color: #F1E6D2;
 }
 
-main {
-  margin-top: 50px;
+header {
   width: 100%;
-  min-height: calc(100vh - 80px); /* optionnel : occuper tout l’écran restant */
+}
+
+main {
+  width: 70%;
+  min-height: calc(100vh - 80px);
 }
 
 @media screen and (max-width: 768px) {
 
   #root {
     padding: 0;
+  }
+
+  main {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1rem;
   }
 }
