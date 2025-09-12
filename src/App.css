@@ -10,7 +10,14 @@
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 50px;
   width: 100%;
   min-height: calc(100vh - 80px); /* optionnel : occuper tout l’écran restant */
+}
+
+@media screen and (max-width: 768px) {
+
+  #root {
+    padding: 0;
+  }
 }

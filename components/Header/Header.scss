@@ -1,50 +1,64 @@
 .header {
     position: fixed;
-    // height: 100px;
     top: 10px;
     width: 100%;
-    // z-index: 1000;
 
     .header-top a,
-    .header-bottom a{
+    .header-bottom a {
         text-decoration: none;
         color: #210706;
+    }
+
+    .burger-btn {
+        display: none;
+        background: none;
+        border: none;
+        font-size: 25px;
+        cursor: pointer;
+        color: #5E657B;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
         flex-direction: column;
-        left: 0px;
-        top: 0px;
+        top: -15px;
+        justify-content: center;
+        align-items: center; 
+        text-align: center;
+
+        .burger-btn {
+            display: block;
+            align-self: center;
+        }
 
         .header-top,
         .header-bottom {
-            height: 100%;
-            padding: 0;
+            display: none;
+            flex-direction: column;
+            width: 100%;
+        }
 
+        &.open .header-top,
+        &.open .header-bottom {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
 
-            &.header-top a, &.header-bottom a {
-                transition: all 0.3s ease;
-                border: 1px solid transparent;
-                width: 100%;
-                text-align: center;
-                padding: 15px;
-                white-space: nowrap;
-                border: 1px solid rgba(255,255,255,0.1);
-            }
+        .header-top a,
+        .header-bottom a {
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+        }
 
-            &.header-top a:hover {
-                padding: 15px;
-                color: #F1E6D2;
-                background-color: #210706;
-            }
-
-            &.header-bottom a:hover {
-                padding: 15px;
-                color: #F1E6D2;
-                background-color: #210706;
-            }
+        .header-top a:hover,
+        .header-bottom a:hover {
+            color: #F1E6D2;
+            background-color: #210706;
         }
     }
 }
