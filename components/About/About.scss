@@ -6,11 +6,17 @@
 @media screen and (max-width: 768px) {
     .about {
         text-align: center;
-    }
 
-    .containeur {
-        .about-paragraphs {
-            height: 70%;
+        .containeur {
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: #210706;
+            color: #F1E6D2;
+
+            .about-paragraphs {
+                height: 100%;
+            }
         }
     }
+
 }

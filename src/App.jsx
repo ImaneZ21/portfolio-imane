@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../components/Header/Header.jsx";
 import Footer from "../components/Footer/Footer.jsx";
 import About from "../components/About/About.jsx";
+import Contact from "../components/Contact/Contact.jsx"
 
 function App() {
   return (
@@ -12,6 +13,10 @@ function App() {
       </header>
       <main>
         <About />
+        <Contact />
+        {/* <Projects />
+        <Skills />
+        <CV /> */}
       </main>
       <Footer />
     </>

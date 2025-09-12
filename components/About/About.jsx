@@ -3,7 +3,7 @@ import "./About.scss";
 function About() {
   return (
     <div className="about d-flex">
-      <div className="containeur">
+      <div className="containeur d-flex">
         <h1>A propos</h1>
         <p className="about-paragraphs">
           Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum
