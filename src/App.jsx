@@ -3,22 +3,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../components/Header/Header.jsx";
 import Footer from "../components/Footer/Footer.jsx";
 import About from "../components/About/About.jsx";
-import Contact from "../components/Contact/Contact.jsx";
-import Title from "../components/Title/Title.jsx"
+import Title from "../components/Title/Title.jsx";
+import Skills from "../components/Skills/Skills.jsx";
+import Projects from "../components/Projects/Projects.jsx";
 
 function App() {
   return (
     <>
-      <header>
-        <Header />
-      </header>
+      <Header />
       <main>
         <Title />
         <About />
-        <Contact />
-        {/* <Projects />
+        <Projects />
         <Skills />
-        <CV /> */}
       </main>
       <Footer />
     </>

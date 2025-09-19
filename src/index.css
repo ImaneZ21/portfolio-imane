@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: #212A31;
-  background-color: #D3D9D4;
+  background-color: #FFFF;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -19,9 +19,9 @@
   }
   a:hover {
     color: #F1E6D2;
-    background-color: #210706;
+    background-color: #FFFF;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #FFFF;
   }
 }
