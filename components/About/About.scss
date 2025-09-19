@@ -1,5 +1,5 @@
 .about {
-    margin-top: 5%;
+    margin-top: 50px;
     flex-direction: column;
 }
 
@@ -9,9 +9,9 @@
 
         .containeur {
             flex-direction: column;
-            justify-content: space-around;
-            background-color: #210706;
-            color: #F1E6D2;
+            justify-content: space-between;
+            background-color: #FFFF;
+            color: #212A31;
 
             .about-paragraphs {
                 height: 100%;
