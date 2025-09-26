@@ -1,0 +1,27 @@
+.skills {
+    margin-top: 50px;
+    flex-direction: column;
+    text-align: center;
+
+    h1 {
+        margin-bottom: 50px;
+    }
+}
+
+.skill {
+    img {
+        height: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .skills {
+        h1{
+            background-color: #e0dedeef;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    }
+}

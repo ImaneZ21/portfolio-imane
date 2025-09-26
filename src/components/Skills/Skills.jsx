@@ -3,17 +3,21 @@ import Datas from "../../data/skill.json";
 import Skill from "./skill.jsx";
 
 function Skills() {
-   return (
+  return (
     <>
-      <section id="projects">
-        {Datas.map((data) => (
-          <Skill
-            key={data.id}
-            title={data.title}
-            id={data.id}
-            description={data.description}
-          />
-        ))}
+      <section id="skills">
+        <div className="skills d-flex">
+          <h1> Mes Compétences</h1>
+          {Datas.map((data) => (
+            <Skill
+              key={data.id}
+              title={data.title}
+              id={data.id}
+              description={data.description}
+              logo={data.logo}
+            />
+          ))}
+        </div>
       </section>
     </>
   );

@@ -1,17 +1,20 @@
 [
     {
         "id" : "1",
-        "title" : "Compétence 1",
-        "description" : "<<<"
+        "title" : "Front-End",
+        "description" : "JavaScript / HTML / CSS / BOOTSTRAP",
+        "logo": "./front-end.png"
     },
      {
         "id" : "2",
-        "title" : "Compétence 2",
-        "description" :"ssss"
+        "title" : "Back-End",
+        "description" :"PHP (symfony), Node.js (Express.js) / API REST",
+        "logo": "./back-end.png"
     },
     {
         "id" : "3",
-        "title" : "Compétence 3",
-        "description" :"description"
+        "title" : "Base de données",
+        "description" :"MySQL / MongoDB",
+        "logo": "./database.png"
     }
 ]
