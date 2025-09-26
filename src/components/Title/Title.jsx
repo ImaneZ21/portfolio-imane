@@ -1,5 +1,4 @@
 import "./Title.scss";
-import image from "../../src/assets/image.png";
 
 function Title() {
   return (

@@ -1,0 +1,17 @@
+[
+    {
+        "id" : "1",
+        "title" : "Compétence 1",
+        "description" : "<<<"
+    },
+     {
+        "id" : "2",
+        "title" : "Compétence 2",
+        "description" :"ssss"
+    },
+    {
+        "id" : "3",
+        "title" : "Compétence 3",
+        "description" :"description"
+    }
+]

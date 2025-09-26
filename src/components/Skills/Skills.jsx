@@ -1,20 +1,17 @@
-import "./Projects.scss";
-import Datas from "../../data/projects.json";
-import Project from "./Project.jsx";
+import "./Skills.scss";
+import Datas from "../../data/skill.json";
+import Skill from "./skill.jsx";
 
-
-function Projects() {
-  return (
+function Skills() {
+   return (
     <>
       <section id="projects">
         {Datas.map((data) => (
-          <Project
+          <Skill
             key={data.id}
-            image={data.image}
             title={data.title}
             id={data.id}
             description={data.description}
-            link={data.link}
           />
         ))}
       </section>
@@ -22,4 +19,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Skills;
