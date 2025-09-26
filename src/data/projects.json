@@ -2,14 +2,14 @@
     {
         "id" : "1",
         "title" : "React Kasa",
-        "image" : "public/kasa-1.png",
+        "image" : "./kasa-1.png",
         "link" : "https://github.com/ImaneZ21/react-kasa",
         "description" : "description en lien avec Kasa"
     },
      {
         "id" : "2",
         "title" : "Dev Web Link",
-        "image" : "public/books-1.png",
+        "image" : "./books-1.png",
         "link" : "https://github.com/ImaneZ21/P7-Dev-Web-livres",
         "description" :"description en lien avec Dev Web Link"
     },
