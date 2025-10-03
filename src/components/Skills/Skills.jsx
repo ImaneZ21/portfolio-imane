@@ -1,5 +1,5 @@
 import "./Skills.scss";
-import Datas from "../../data/skill.json";
+import Datas from "../../data/skills.json";
 import Skill from "./skill.jsx";
 
 function Skills() {

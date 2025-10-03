@@ -3,14 +3,12 @@ import "./Projects.scss";
 function Project({ image, title, description, link }) {
   return (
     <>
-      <div className="project mb-5">
-        <h2 className="project-title">{title}</h2>
+      <article className="project mb-5">
+        <h1 className="project-title">{title}</h1>
         <img src={image} alt={title} />
-        <h3>{description}</h3>
-        <a href={link} target="_blank">
-          {link}
-        </a>
-      </div>
+        <p>{description}</p>
+        <button onClick={() => window.open(link, "_blank")}>{link}</button>
+      </article>
     </>
   );
 }

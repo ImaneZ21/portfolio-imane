@@ -1,23 +1,23 @@
 [
-    {
-        "id" : "1",
-        "title" : "React Kasa",
-        "image" : "./kasa-1.png",
-        "link" : "https://github.com/ImaneZ21/react-kasa",
-        "description" : "description en lien avec Kasa"
-    },
-     {
-        "id" : "2",
-        "title" : "Dev Web Link",
-        "image" : "./books-1.png",
-        "link" : "https://github.com/ImaneZ21/P7-Dev-Web-livres",
-        "description" :"description en lien avec Dev Web Link"
-    },
-    {
-        "id" : "3",
-        "title" : "Nina carducci",
-        "image" : "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "link" : "https://github.com/ImaneZ21/Nina-Carducci-Dev",
-        "description" :"description en lien avec Nina Carducci"
-    }
+  {
+    "id": "1",
+    "title": "React Kasa",
+    "image": "./kasa-1.png",
+    "link": "https://github.com/ImaneZ21/react-kasa",
+    "description": "Dans le cadre de ce projet, j'ai conçu et développé le back-end d'une application de notation de livres.\nJ'ai mis en place un serveur avec Express et assuré la connexion à une base de données MongoDB, en utilisant Mongoose pour la modélisation des données.\nJ'ai implémenté les opérations CRUD nécessaires à la gestion des livres et des notations, en veillant à la sécurité et à la fiabilité des données.\nAfin de garantir une expérience sécurisée, j'ai développé un système d'authentification robuste pour les utilisateurs.\nJ'ai également intégré la gestion du téléchargement et de l'optimisation des images, ainsi que le calcul automatisé des notes moyennes pour chaque ouvrage.\nLe projet a été structuré selon une architecture MVC, permettant une organisation claire et évolutive du code.\nEnfin, une attention particulière a été portée aux bonnes pratiques de Green Code, afin d'optimiser les performances et de réduire l'empreinte écologique de l'application."
+  },
+  {
+    "id": "2",
+    "title": "Dev Web Link",
+    "image": "./books-1.png",
+    "link": "https://github.com/ImaneZ21/P7-Dev-Web-livres",
+    "description": "description en lien avec Dev Web Link"
+  },
+  {
+    "id": "3",
+    "title": "Nina carducci",
+    "image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "link": "https://github.com/ImaneZ21/Nina-Carducci-Dev",
+    "description": "description en lien avec Nina Carducci"
+  }
 ]
