@@ -7,7 +7,7 @@ function Skills() {
     <>
       <section id="skills">
         <div className="skills d-flex">
-          <h1> Mes Compétences</h1>
+          <h1 className="skills-title"> Mes Compétences</h1>
           {Datas.map((data) => (
             <Skill
               key={data.id}
@@ -15,6 +15,7 @@ function Skills() {
               id={data.id}
               description={data.description}
               logo={data.logo}
+              logo2={data.logo2}
             />
           ))}
         </div>

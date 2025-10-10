@@ -39,7 +39,8 @@
         .project-title {
             font-size: 28px;
             font-weight: 700;
-            margin-bottom: 15px;
+            margin-bottom: 50px;
+            text-align: start;
             color: #333;
 
             &::after {
@@ -54,7 +55,7 @@
         }
 
         img {
-            width: 100%;
+            width: 70%;
             border-radius: 8px;
             margin-bottom: 15px;
         }
@@ -67,7 +68,7 @@
         }
 
         button {
-            background-color: #000;
+            background-color: #ff7e5f;
             color: #fff;
             border: none;
             border-radius: 50px;
@@ -77,8 +78,8 @@
 
             &:hover {
                 background-color: #fff;
-                color: #000;
-                border: 1px solid #000;
+                color: #ff7e5f;
+                border: 1px solid #feb47b;
             }
         }
     }
@@ -87,5 +88,12 @@
 }
 
 @media screen and (max-width: 768px) {
+    .projects {
+        .project {
+            img {
+                width: 100%;
 
+            }
+        }
+    }
 }

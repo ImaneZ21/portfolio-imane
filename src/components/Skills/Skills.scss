@@ -3,8 +3,24 @@
     flex-direction: column;
     text-align: center;
 
-    h1 {
-        margin-bottom: 50px;
+     .skills-title {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #333;
+        text-align: center;
+        margin-bottom: 60px;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, #ff7e5f, #feb47b);
+            margin: 20px auto 0;
+            border-radius: 2px;
+        }
     }
 }
 
@@ -18,10 +34,6 @@
 
 @media screen and (max-width: 768px) {
     .skills {
-        h1{
-            background-color: #e0dedeef;
-            padding-top: 40px;
-            padding-bottom: 40px;
-        }
+    
     }
 }

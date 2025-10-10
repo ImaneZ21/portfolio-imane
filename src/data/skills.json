@@ -3,13 +3,15 @@
         "id" : "1",
         "title" : "Front-End",
         "description" : "JavaScript / HTML / CSS / BOOTSTRAP",
-        "logo": "./front-end.png"
+        "logo": "./reactjs.webp",
+        "logo2": "./vuejs.png"
+
     },
      {
         "id" : "2",
         "title" : "Back-End",
         "description" :"PHP (symfony), Node.js (Express.js) / API REST",
-        "logo": "./back-end.png"
+        "logo": "./symfony_black_03.png"
     },
     {
         "id" : "3",
