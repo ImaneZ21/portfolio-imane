@@ -1,22 +1,22 @@
 [
-    {
-        "id" : "1",
-        "title" : "Front-End",
-        "description" : "JavaScript / HTML / CSS / BOOTSTRAP",
-        "logo": "./reactjs.webp",
+  {
+    "id": 1,
+    "title": "Front-End",
+    "description": "Création d'interfaces modernes avec React et Vue.",
+          "logo": "./reactjs.webp",
         "logo2": "./vuejs.png"
-
-    },
-     {
-        "id" : "2",
-        "title" : "Back-End",
-        "description" :"PHP (symfony), Node.js (Express.js) / API REST",
+  },
+  {
+    "id": 2,
+    "title": "Back-End",
+    "description": "Développement d'API robustes avec Symfony.",
         "logo": "./symfony_black_03.png"
-    },
-    {
-        "id" : "3",
-        "title" : "Base de données",
-        "description" :"MySQL / MongoDB",
-        "logo": "./database.png"
-    }
+  },
+  {
+    "id": 3,
+    "title": "Base de données",
+    "description": "Gestion et requêtes SQL avec MySQL et MongoDB.",
+     "logo": "./mysql.png",
+        "logo2": "./mongodb-logo.svg"
+  }
 ]

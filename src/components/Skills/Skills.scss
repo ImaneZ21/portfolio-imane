@@ -1,9 +1,15 @@
 .skills {
-    margin-top: 50px;
+    display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 80%;
+    margin: 0 auto;
 
-     .skills-title {
+
+    .skills-title {
         font-size: 36px;
         font-weight: 700;
         text-transform: uppercase;
@@ -25,15 +31,57 @@
 }
 
 .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
     img {
-        height: 50px;
+        height: 60px;
+        margin: 10px 5px;
+        opacity: 0.9;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    p {
+        margin-top: 5px;
+        font-weight: 600;
+        font-size: 1rem;
+        color: #333;
+        transition: color 0.3s ease;
+    }
+
+    &:hover {
+        transform: translateY(-5px);
+
+        img {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+
+        p {
+            color: #ff7e5f;
+        }
     }
 }
 
-
-
 @media screen and (max-width: 768px) {
-    .skills {
-    
+    .skills.d-flex {
+        gap: 20px;
+    }
+
+    .skill img {
+        height: 45px;
+    }
+
+    .skill p {
+        font-size: 0.9rem;
+    }
+
+    .skills .skills-title {
+        font-size: 28px;
+        margin-bottom: 40px;
     }
 }

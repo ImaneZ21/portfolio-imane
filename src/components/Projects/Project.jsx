@@ -5,7 +5,12 @@ function Project({ image, title, description, link }) {
     <>
       <article className="project mb-5">
         <h1 className="project-title">{title}</h1>
-        <img src={image} alt={title} />
+        <img
+          onClick={() => window.open(link, "_blank")}
+          src={image}
+          alt={title}
+        />
+        <h2 className="project-context mb-4 mt-4">Contexte</h2>
         <p>{description}</p>
         <button onClick={() => window.open(link, "_blank")}>{link}</button>
       </article>
