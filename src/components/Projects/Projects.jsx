@@ -16,6 +16,7 @@ function Projects() {
                 id={data.id}
                 description={data.description}
                 link={data.link}
+                logos={data.logos}
               />
             ))}
         </div>
