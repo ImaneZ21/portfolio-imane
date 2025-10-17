@@ -6,27 +6,27 @@
     "logos": ["./reactjs.webp", "./html.png", "./js.png", "./css.png"],
     "link": "https://github.com/ImaneZ21/react-kasa",
     "description": {
-      "context": "Situation et enjeux du projet",
-      "goal": "Buts à atteindre et problématiques à résoudre",
-      "stack": " Technologies et outils utilisés",
-      "skills": "Apprentissages et défis relevés",
-      "results": "Livrables et métriques de réussite",
-      "improvement": "Points d'optimisation identifiés"
+      "context": "Front-end d’une application web développée en React, basé sur des maquettes et des données simulées JSON, avec pour objectif une interface moderne et réactive.",
+      "goal": "Implémenter les composants React, configurer le routage avec React Router et améliorer l’expérience utilisateur via des animations CSS.",
+      "stack": " React, React Router, SASS, CSS, Node.js, Vite.",
+      "skills": "Création et organisation de composants, gestion du routage, manipulation de données JSON, structuration du CSS avec SASS, implémentation d’animations interactives.",
+      "results": "Application fonctionnelle et conforme aux maquettes, navigation fluide et expérience utilisateur optimisée, livrable prêt pour portfolio professionnel.",
+      "improvement": "Optimisation mobile, gestion avancée des états et intégration de tests unitaires pour renforcer la robustesse."
     }
   },
   {
     "id": "2",
     "title": "Dev Web Link",
     "image": "./books-1.png",
-    "logos": ["./reactjs.webp", "./html.png", "./js.png", "./css.png"],
+    "logos": ["./reactjs.webp", "./mongodb-logo.svg"],
     "link": "https://github.com/ImaneZ21/P7-Dev-Web-livres",
     "description": {
-      "context": "Situation et enjeux du projet",
-      "goal": "Buts à atteindre et problématiques à résoudre",
-      "stack": " Technologies et outils utilisés",
-      "skills": "Apprentissages et défis relevés",
-      "results": "Livrables et métriques de réussite",
-      "improvement": "Points d'optimisation identifiés"
+      "context": "Développement du back-end d’un site de notation de livres avec Express et MongoDB, en suivant une architecture MVC et en respectant les bonnes pratiques du Green Code pour réduire l’empreinte écologique.",
+      "goal": "Créer un serveur fonctionnel, gérer la communication avec la base de données, implémenter les opérations CRUD pour les livres et les notations, sécuriser les données et mettre en place un système d’authentification utilisateur.",
+      "stack": "Node.js, Express, MongoDB, Mongoose, architecture MVC, API RESTful, gestion d’images.",
+      "skills": "Modélisation des données avec Mongoose, implémentation CRUD, gestion de l’authentification et de la sécurité, structuration de projet back-end avec MVC, manipulation et optimisation des images, calcul de notes moyennes.",
+      "results": "Serveur back-end opérationnel, API sécurisée et performante, gestion complète des livres et notations, base de données fiable et extensible, projet prêt à être intégré dans un portfolio professionnel.",
+      "improvement": "Optimisation des performances, ajout de tests unitaires et d’intégration, amélioration de la scalabilité et de la sécurité des données pour un déploiement en production."
     }
   },
   {
@@ -36,12 +36,12 @@
     "image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
     "link": "https://github.com/ImaneZ21/Nina-Carducci-Dev",
     "description": {
-      "context": "Le projet “Nina Carducci” consistait à créer le site vitrine d'une photographe professionnelle souhaitant valoriser son travail et attirer de nouveaux clients. Le site devait être à la fois esthétique, rapide et accessible, tout en reflétant l'univers artistique de la cliente.",
-      "goal": "L'objectif principal était d'optimiser les performances et le référencement du site existant afin d'améliorer sa visibilité sur les moteurs de recherche. Il fallait également corriger les erreurs techniques et garantir une navigation fluide sur tous les supports.",
-      "stack": "Le projet a été réalisé avec HTML5, CSS3, JavaScript, et Bootstrap pour la mise en page responsive. Les outils Lighthouse, Wave, et Chrome DevTools ont été utilisés pour l’audit des performances, de l’accessibilité et du SEO.",
-      "skills": "J’ai appris à diagnostiquer et corriger des problèmes de performance (optimisation d’images, minification des fichiers, lazy loading), à améliorer le référencement naturel, et à rendre un site conforme aux bonnes pratiques d’accessibilité.s",
-      "results": "Le score Lighthouse est passé de 60 à plus de 95 pour les performances et l’accessibilité. Le site se charge désormais en moins de deux secondes et offre une meilleure expérience utilisateur sur mobile et desktop.",
-      "improvement": "Les prochaines étapes pourraient inclure l’intégration d’un CMS comme WordPress pour faciliter la mise à jour du contenu, ainsi qu’un suivi analytique plus poussé via Google Analytics."
+      "context": "Optimisation d’un site web visant à améliorer ses performances, son accessibilité et son référencement naturel (SEO)..",
+      "goal": "Identifier les problèmes de chargement et de référencement, proposer et appliquer des recommandations pour améliorer la vitesse, la structure du code et l’accessibilité, et documenter les résultats via un rapport avant/après.",
+      "stack": "Outils d’audit comme Lighthouse et Wave, HTML/CSS/JS, optimisation front-end pour la performance et l’accessibilité, bonnes pratiques SEO.",
+      "skills": "Analyse des performances web, identification des problèmes SEO et d’accessibilité, mise en œuvre de recommandations techniques, amélioration de la vitesse de chargement, création de rapports illustratifs sur les changements et leur impact.",
+      "results": "Site optimisé avec meilleure vitesse de chargement, structure de code améliorée, accessibilité renforcée et référencement SEO optimisé. Rapport clair et illustratif permettant de visualiser les progrès réalisés.",
+      "improvement": "Surveillance continue des performances, intégration d’outils d’automatisation SEO, et amélioration des pratiques d’accessibilité pour garantir une expérience utilisateur optimale sur tous les appareils."
     }
   }
 ]
