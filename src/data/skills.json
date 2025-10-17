@@ -3,20 +3,18 @@
     "id": 1,
     "title": "Front-End",
     "description": "Création d'interfaces modernes avec React et Vue.",
-          "logo": "./reactjs.webp",
-        "logo2": "./vuejs.png"
+    "logos": ["./reactjs.webp", "./vuejs.png", "./html.png", "./js.png", "./css.png"]
   },
   {
     "id": 2,
     "title": "Back-End",
     "description": "Développement d'API robustes avec Symfony.",
-        "logo": "./symfony_black_03.png"
+    "logos": ["./symfony_black_03.png"]
   },
   {
     "id": 3,
     "title": "Base de données",
     "description": "Gestion et requêtes SQL avec MySQL et MongoDB.",
-     "logo": "./mysql.png",
-        "logo2": "./mongodb-logo.svg"
+    "logos": ["./mysql.png", "./mongodb-logo.svg"]
   }
 ]

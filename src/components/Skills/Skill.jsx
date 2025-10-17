@@ -1,11 +1,11 @@
+import Icons from "../Icons/Icons";
 import "./Skills.scss";
 
-function Skill({ title, description, logo, logo2 }) {
+function Skill({ title, description, logos }) {
   return (
     <>
       <article className="skill mb-3">
-        <img src={logo} alt={title} />
-         {logo2 && <img src={logo2} alt={title} />}
+        <Icons logos={logos} />
         <p className="mb-4">{title}</p>
         <p className="mb-4">{description}</p>
       </article>

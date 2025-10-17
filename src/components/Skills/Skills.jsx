@@ -14,8 +14,7 @@ function Skills() {
               title={data.title}
               id={data.id}
               description={data.description}
-              logo={data.logo}
-              logo2={data.logo2}
+              logos={data.logos}
             />
           ))}
         </div>
