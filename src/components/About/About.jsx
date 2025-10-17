@@ -7,7 +7,7 @@ function About() {
         <div className="about d-flex">
           <div className="containeur d-flex">
             <h1>A propos</h1>
-            <p className="about-paragraphs">
+            <p className="about-paragraphs mt-3">
               Bonjour, je suis Imane Zerdag, développeuse Full-Stack passionnée par la création de sites web performants et accessibles.
               Après une formation complète en développement web et un apprentissage d'un an, j’ai découvert que j’aimais concevoir des applications complètes, du front-end au back-end, en alliant logique technique et créativité.
               Je maîtrise plusieurs langages et frameworks, avec un focus sur la performance, l’accessibilité et la qualité du code. Mon expérience m’a permis de construire des projets complets et fonctionnels tout en respectant les bonnes pratiques du développement web.
