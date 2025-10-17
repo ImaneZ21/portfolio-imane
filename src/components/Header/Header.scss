@@ -4,6 +4,7 @@
     justify-content: space-between;
     border-bottom: 1px #212A31 solid;
     z-index: 1000;
+    align-items: center;
 
     .header-top {
         justify-content: end;
@@ -15,7 +16,7 @@
     }
 
     .header-top a:hover {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .burger-btn {
@@ -92,6 +93,7 @@
         .header-top a:hover {
             color: #000000;
             background-color: #FFFF;
+            font-size: 20px;
         }
     }
 }
