@@ -11,10 +11,10 @@
 
         .about-paragraphs {
             height: 100%;
+            text-align: justify;
+            margin: 0 15px,
         }
     }
 }
 
-@media screen and (max-width: 768px) {
-
-}
+@media screen and (max-width: 768px) {}

@@ -13,14 +13,13 @@ function Project({ image, title, description, link, logos }) {
           className="project-image"
         />
         <Icons logos={logos} />
-        <h2 className="project-context mb-4 mt-4">Contexte</h2>
-        <div className="project-description">
-          <p>Situation et enjeux du projet : {description.context}</p>
-          <p>Buts à atteindre et problématiques à résoudre : {description.goal}</p>
-          <p>Technologies et outils utilisés : {description.stack}</p>
-          <p>Apprentissages et défis relevés : {description.skills}</p>
-          <p>Livrables et métriques de réussite : {description.results}</p>
-          <p>Points d'optimisation identifiés : {description.improvement}</p>
+        <div className="project-description mt-4">
+          <p><strong>Situation et enjeux du projet :</strong> {description.context}</p>
+          <p><strong>Buts à atteindre et problématiques à résoudre :</strong> {description.goal}</p>
+          <p><strong> Technologies et outils utilisés : </strong> {description.stack}</p>
+          <p><strong>Apprentissages et défis relevés :</strong> {description.skills}</p>
+          <p><strong>Livrables et métriques de réussite :</strong> {description.results}</p>
+          <p><strong>Points d'optimisation identifiés :</strong> {description.improvement}</p>
         </div>
         <button onClick={() => window.open(link, "_blank")}>{link}</button>
       </article>
