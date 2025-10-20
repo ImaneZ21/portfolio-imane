@@ -81,19 +81,22 @@
         }
 
         button {
-            background-color: #e65a3a;
+            background-color: #c74428;
             color: #fff;
-            border: none;
+            font-weight: bold;
+            border: 1px solid transparent; 
             border-radius: 50px;
             padding: 10px 20px;
             cursor: pointer;
             transition: all 0.3s ease;
+            word-break: break-all;
+        }
 
-            &:hover {
-                background-color: #fff;
-                color: #e65a3a;
-                border: 1px solid #e65a3a;
-            }
+        button:hover {
+            background-color: #fff;
+            color: #b83820;
+            border: 1px solid #b83820;
+            transform: scale(1.05);
         }
     }
 

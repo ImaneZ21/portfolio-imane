@@ -21,7 +21,7 @@ function Project({ image, title, description, link, logos }) {
           <p><strong>Livrables et métriques de réussite :</strong> {description.results}</p>
           <p><strong>Points d'optimisation identifiés :</strong> {description.improvement}</p>
         </div>
-        <button onClick={() => window.open(link, "_blank")}>{link}</button>
+        <button onClick={() => window.open(link, "_blank")}>Consulter le projet</button>
       </article>
     </>
   );

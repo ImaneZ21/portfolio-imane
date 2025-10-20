@@ -1,12 +1,39 @@
-# React + Vite
+# 🌐 Portfolio - Imane Zerdag
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur mon **portfolio personnel**, un site web que j’ai conçu et développé pour présenter mon parcours, mes compétences et mes projets en développement web.
 
-Currently, two official plugins are available:
+👉 **Lien du site :** [https://imanez21.github.io/portfolio-imane/](https://imanez21.github.io/portfolio-imane/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 À propos du projet
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ce portfolio a été réalisé dans le but de :
+- Mettre en avant mes **compétences techniques et créatives** ;
+- Présenter mes **projets réalisés** durant ma formation et mon apprentissage ;
+- Offrir une **interface claire et fluide**, agréable à parcourir ;
+- Servir de **point de contact professionnel** (recruteurs, collaborations, etc.).
+
+---
+
+## 🛠️ Stack technique
+
+Ce projet utilise les technologies suivantes :
+
+| Technologie | Utilisation |
+|--------------|-------------|
+| **React** | Framework front-end principal |
+| **Vite** | Outil de build rapide et léger |
+| **HTML5 / CSS3** | Structure et mise en forme des pages |
+| **JavaScript (ES6+)** | Dynamique du site |
+| **GitHub Pages** | Hébergement du portfolio |
+
+---
+
+## 🚀 Installation et exécution en local
+
+Si vous souhaitez exécuter le projet localement :
+
+### 1. Cloner le dépôt
+```bash
+git clone https://github.com/imanez21/portfolio-imane.git
