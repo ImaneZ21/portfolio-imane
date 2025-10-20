@@ -2,21 +2,19 @@
   display: flex;            
   justify-content: center;   
   align-items: center;     
-  padding: 20px;
   gap: 20px;                 
 
   .footer-copyright {
     font-size: 12px;
+    margin: 0;
     color: #555;
   }
 
   .footer-link {
-    font-size: 12px;
+    width: 30px;
     color: #ff7e5f;        
     cursor: pointer;
-
-    &:hover {
-      text-decoration: underline;
-    }
+    padding-bottom: 5px;
+    
   }
 }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Header.scss";
 import logo from "../../assets/logo-IZ-orange.png";
+import cv from "../../assets/ZERDAG-imane-cv.pdf";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +42,7 @@ function Header() {
               </a>
               <a
                 className="pe-4"
-                href="public\files\Zerdag_Imane_2_kanban_112024.pdf"
+                href= {cv}
                 download
               >
                 Mon CV

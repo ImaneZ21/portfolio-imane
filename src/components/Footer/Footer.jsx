@@ -1,4 +1,5 @@
 import "./footer.scss";
+import linkedin from "../../assets/linkedin-logo-orange.png"
 
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
           <p className="footer-copyright">
             © 2025 Imane ZERDAG. Tous droits réservés.
           </p>
-          <p className="footer-link">LinkedIn</p>
+          <img className="footer-link" onClick={() => window.open("https://fr.linkedin.com/in/imane-zerdag", "_blank")} src={linkedin} alt="Logo linkedin"/>
         </div>
       </footer>
     </>
